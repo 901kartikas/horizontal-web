@@ -1,0 +1,54 @@
+
+ 
+.content{
+    margin: 10%;
+}
+.slide{
+    width: 100vw;
+    height: 100vh;
+    margin-left:  0;
+    padding: 0; 
+}
+
+.satu{
+    background: #efdefe;
+}
+
+.dua{
+    background: #a3f3d3;
+}
+
+.tiga{
+    background: #0bbaa0;
+}
+
+.empat{
+    background: #00dfdf;
+}
+
+.lima{
+    background: #000000;
+}
+
+.wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 500vw;
+        transform: rotate(90deg) translateY(-100vh);
+        transform-origin: top left;
+}
+ .outer-wrapper {
+      width: 100vh;
+      height: 100vw;
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      
+ }
+ ::-webkit-scrollbar {
+ display:none;
+ }
